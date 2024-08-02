@@ -1,0 +1,143 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+:root{
+    --bgcol:#37474F;
+    --mcol0:#29B6F6;
+    --mcol1:#2196F3;
+    --mcol2:#1976D2;
+    --txtcol0:#90A4AE;
+    --txtcol1:#607D8B;
+    --whitecol:#ECEFF1;
+    --darkcol:#263238;
+}
+
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:15vh;
+    background-color:var(--bgcol);
+}
+
+#puzzle_container{
+    position: relative;
+    width: 50vh;
+    height:50vh;
+    background-color:var(--darkcol);
+    border-radius:8px;
+    border:1px solid var(--mcol0);
+    box-shadow:0px 8px 0px var(--mcol0);
+}
+
+.puzzle_block{
+    position:absolute;
+    left:0;
+    top:0;
+    width:33.4%;
+    height:33.4%;
+    background-color:var(--txtcol1);
+    color:var(--whitecol);
+    font-size:10vh;
+    font-weight:bold;
+    text-align:center;
+    padding-top:3%;
+    cursor: pointer;
+    user-select:none;
+    transition:left 0.3s,top 0.3s;
+}
+
+/*difficulty container*/
+#difficulty_container{
+    display:flex;
+    flex-direction:row;
+    width:50vh;
+    height:10vh;
+    background-color:var(--darkcol);
+    border-radius:8px;
+    margin-top:22px;
+}
+.difficulty_button{
+    flex-grow:1;
+    background-color:inherit;
+    color:var(--mcol2);
+    text-align:center;
+    font-size:3vh;
+    font-weight:bold;
+    padding-top:5%;
+    margin:4px;
+    cursor: pointer;
+    transition:font-size 0.3s;
+}
+.difficulty_button:hover{
+    opacity:0.8;
+    font-size:3.5vh;
+}
+.difficulty_button.active{
+    background-color:inherit;
+    color:var(--mcol0);
+}
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  
+  .button-19:active {
+    border-width: 4px 0 0;
+    background: none;
+  }
