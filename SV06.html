@@ -1,0 +1,87 @@
+<html>
+    <head><link rel="stylesheet" href="Question.css">
+    <style>
+        .video-bg {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: -1;
+              overflow: hidden;
+            }
+        
+            .video-bg video {
+              min-width: 100%;
+              min-height: 100%;
+              width: auto;
+              height: auto;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+        
+            .content {
+              position: relative;
+              z-index: 1;
+              padding: 20px;
+              text-align: center;
+              color: white;
+              text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            }
+            h1{
+                color:black;
+            }
+    </style></head>
+    <body>
+        <div class="video-bg">
+            <video autoplay loop muted>
+              <source src="project video.mp4" type="video/mp4">
+            </video>
+          </div>
+        
+          <div class="content">
+    <main><div class="container">
+        <div class="game-quiz-container">
+
+
+            <div class="game-question-container">
+                <h1 id="display-question">Have you ever been in a situation at school where you felt threatened or unsafe ? </h1>
+            </div>
+
+            <div class="game-options-container">
+
+               <div class="modal-container" id="option-modal">
+
+                    <div class="modal-content-container">
+                         <h1>Please Pick An Option</h1>
+
+                         <div class="modal-button-container">
+                            <button onclick="closeOptionModal()">Continue</button>
+                        </div>
+
+                    </div>
+
+               </div>
+
+                <span>
+                    <input type="radio" id="option-one" name="option" class="radio" value="optionA"/>
+                    <label for="option-one" class="option" id="option-one-label"><a href="SV08.html"> YES </a></label>
+                </span>
+
+
+                <span>
+                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                    <label for="option-two" class="option" id="option-two-label"><a href="SV09.html"> NO </a></label>
+                </span>
+
+
+
+            </div>
+
+
+        </div></div>
+    </div>
+</body>
+</html>
