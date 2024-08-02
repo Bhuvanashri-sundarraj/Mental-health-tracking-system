@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="New story 01.css" />
+    <link rel="icon" href="Icons8-Windows-8-Printing-Books.ico" />
+    <title>Flip Book</title>
+  </head>
+  <body>
+    <!-- Previous Button -->
+    <button id="prev-btn" onclick="audio.play()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="34"
+        height="34"
+        fill="currentColor"
+        class="bi bi-arrow-left-circle-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+        />
+      </svg>
+    </button>
+    <!-- Book -->
+    <div id="book" class="book">
+      <!-- Paper 1-->
+      <div id="p1" class="paper">
+        <div class="front">
+          <div id="f1" class="front-content">
+            <h1> The Elephant Rope</h1>
+            <img src="./Story 11.webp" height="300px" width="300px"alt="" />
+          </div>
+        </div>
+        <div class="back">
+          <div id="b1" class="back-content">
+            <!-- <h1>Back 1</h1> -->
+            <h3><u>Chapter 1: The Small Rope</u></h3>
+            <img src="./Story 12.jpg" height="200px" width="300px" alt="" />
+
+            <p>
+              When walking through an elephant camp, a man noticed that the elephants were only secured with a small rope that was tied around one ankle.
+              <br> He wondered why the elephants didn’t break free from the rope, as the elephants were certainly strong enough to do so.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Paper 2 -->
+      <div id="p2" class="paper">
+        <div class="front">
+          <div id="f2" class="front-content">
+            <!-- <h1>Front 2</h1> -->
+            <p>
+              He asked a trainer why the elephants didn’t try to break free, and the trainer responded by saying that they use the same size rope for baby elephants all the way up to adulthood. 
+              <br>Because they’re too small when they’re babies to break free from the rope, they grow up being conditioned that the rope is stronger than they are.
+              <br>As adults, they think the rope can still hold them, so they don’t try to fight it.
+            </p>
+            <h3><u>Chapter 2: Learned Helplessness</u></h3>
+            <img src="./Story 13.jpg" height="200px" width="200px" alt="" />
+          </div>
+        </div>
+        <div class="back">
+          <div id="b2" class="back-content">
+            <!-- <h3>Back 2</h3> -->
+            <p>
+              The elephants in this case are experiencing learned helplessness.
+              <br> This phenomenon occurs when someone has been conditioned to anticipate discomfort in some way without having a way to avoid it or make it stop. 
+              <br>After enough conditioning, the person will stop any attempts to avoid the pain, even if they see an opportunity to escape.
+            </p>
+            <img src="./Story 14.jpg" height="200px" width="300px" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Paper 3-->
+      <div id="p3" class="paper">
+        <div class="front">
+          <div id="f3" class="front-content">
+            <h3><u>Chapter 3: Breaking Free</u></h3>
+            <img src="./Story 15.jpg" height="150px" width="250px" alt="" />
+
+            <p>
+              If you go through life thinking that you can’t do something just because you have failed at doing it in the past, you’re living with a fixed mindset. 
+              <br>You have to let go of your limiting beliefs in order to make the breakthroughs that are required for your ultimate success. 
+              <br>Don’t let other people tell you that you can’t do something, and don’t hold onto an assumption that you can’t grow and learn from past failures.    
+            </p>
+          </div>
+        </div>
+        <div class="back">
+          <div id="b3" class="back-content">
+            <!-- <h1>Back 3</h1> -->
+            <p>The End</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paper 4 -->
+
+      <!-- <div id="p4" class="paper">
+        <div class="front">
+          <div id="f4" class="front-content">
+            <h1>Front 4</h1>
+          </div>
+        </div>
+        <div class="back">
+          <div id="b4" class="back-content">
+            <h1>Back 4</h1>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Next Button -->
+
+    <button id="next-btn" onclick="audio.play()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="34"
+        height="34"
+        fill="currentColor"
+        class="bi bi-arrow-right-circle-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+        />
+      </svg>
+    </button>
+    <a href="Stories03.html"><button id="exit-btn" style="background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;">
+      Exit
+    </button></a>
+    <script>
+      var audio=new Audio();
+      audio.src="Book turn 02.mp3";
+    </script>
+    <script src="New story 01.js"></script>
+         
+  </body>
+</html>
