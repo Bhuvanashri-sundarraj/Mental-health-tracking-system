@@ -1,0 +1,90 @@
+.body{
+    margin:0;
+}
+.menu{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.menu .btn{
+    float:left;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #fff;
+    padding:8px 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu .btn:hover
+{
+    background: wheat;
+    color: black;
+}
+.menu .btn:active{
+    background-color: lavender;
+    color: black;
+}
+.main{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    padding:16px;
+}
+.logo{
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.logos{
+    color: chartreuse;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.container{
+    padding: 2rem;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin:0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius:0.5rem;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index:1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height:0.5rem;
+    border-radius:50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
