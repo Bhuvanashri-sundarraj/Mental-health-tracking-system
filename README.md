@@ -13,3 +13,7 @@ We offer doctor consultation and also users can opt for app recommendations. Our
 
 # Output can be viewed using this link
 https://bhuvanashri-sundarraj.github.io/Mental-health-tracking-system/
+
+# Journal Name :
+INTERNATIONAL JOURNAL OF PROGRESSIVE RESEARCH IN ENGINEERING MANAGEMENT AND SCIENCE (IJPREMS)
+<br><a href="https://pdflink.to/bhuvanashrimhtscertificate/">Certificate</a>
