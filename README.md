@@ -16,4 +16,5 @@ https://bhuvanashri-sundarraj.github.io/Mental-health-tracking-system/
 
 # Journal Name :
 INTERNATIONAL JOURNAL OF PROGRESSIVE RESEARCH IN ENGINEERING MANAGEMENT AND SCIENCE (IJPREMS)
-<br><a href="https://pdflink.to/bhuvanashrimhtscertificate/">Certificate</a>
+<br><a href="https://pdflink.to/bhuvanashrimhtscertificate/">Certificate</a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://pdflink.to/bhuvanashrimentalhealthtrackingsystem/">Journal Document</a>
